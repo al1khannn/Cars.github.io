@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastest Cars</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-navbar-container {
+            background-image: url('image.jpg');
+            background-size: cover;
+            padding: 0;
+            height: 280px;
+        }
+        .navbar {
+            background-color: transparent !important;
+        }
+
+        header {
+            color: rgba(239, 238, 238, 0.766);
+            background-color: transparent;
+            text-align: center;
+        }
+
+        #salam {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        #records{
+     margin-top: 7%;
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: #282727;
+            text-align: center;
+            font-size: 30px ;
+        }
+
+        #image-link {
+    transition: opacity 0.3s; 
+}
+
+#image-link:hover img {
+    opacity: 0.7; 
+}
+    </style>
+</head>
+<body>
+   
+    <div class="header-navbar-container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Fastest Cars</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="booking.html">Contact us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="container mt-4">
+            <h1>Welcome! In this website, you can find the fastest cars in the world</h1>
+        </header>
+    </div>
+    
+
+    <div id="salam" class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <h1>Cars</h1>
+                
+                <a href="https://www.hennesseyspecialvehicles.com/" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="hennessey-venom-f5.jpg" alt="sportscar"></a>
+                <a href="https://www.porsche.com/central-eastern-europe/ru/_kazakhstan_/models/911/911-turbo-models/911-turbo-s/" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="431454-porsche-911-turbo-s-2021-la-suprematie-tranquille.jpeg" alt="sportscar"></a>
+                <a href="https://www.lamborghini.com/ru-en/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/huracan/huracan-sterrato" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="lambo.jpg" alt="sportscar"></a>
+                <a href="https://www.motor1.com/news/685677/bwm-m5-f90-autobahn-top-speed-run/" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="m5.jpg" alt="sportscar"></a>
+                <a href="https://www.koenigsegg.com/model/jesko-attack" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="jesko.jpg" alt="sportscar"></a>
+                <a href="https://www.nissanusa.com/vehicles/sports-cars/gt-r.html" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="gtr.jpg" alt="sportscar"></a>
+                <a href="https://auto.ironhorse.ru/bugatti-chiron_16390.html" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="bugatti-chiron-super-sport-golden-era-car (2).jpg" alt="sportscar"></a>
+                <a href="https://www.lamborghini.com/ru-en/%D0%BC%D0%BE%D0%B4%D0%B5%D0%BB%D0%B8/aventador" id="image-link"><img class="rounded mb-2" style="width: 150px; height: 80px;" src="aventador.jpg" alt="sportscar"></a>
+
+                <p>If you want to know how to get one of these top cars</p>
+                <a href="booking.html" class="btn btn-outline-dark">Click Here</a>
+                
+            </div>
+            
+            <div id="records" class="col-md-6 text-center">
+                <h2>Latest Records</h2>
+                <p>You can see the worldwide car speed ranking right through this button</p>
+                <a href="https://www.topspeed.com/fastest-cars-in-the-world-ranked/#mercedes-clk-gtr-super-sport#" class="btn btn-dark">Explore Records</a>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <footer class="mt-5">
+        <div class="container">
+            <p>&copy; 2023 Fastest Cars</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
